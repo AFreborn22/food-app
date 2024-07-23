@@ -8,9 +8,6 @@ import About from './components/About';
 import Footer from './components/Footer';
 import './App.css';
 
-const TRACKING_ID = "G-5K2KXYQ1GE";
-ReactGA.initialize(TRACKING_ID);
-
 function usePageViews() {
   const location = useLocation();
   useEffect(() => {
