@@ -23,8 +23,8 @@ function App() {
 
   useEffect(() => {
    
-    const email = email;
-    ReactGA.set({ email });
+    const userId = 'user123';
+    ReactGA.set({ userId });
   }, []);
 
   return (
