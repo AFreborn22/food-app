@@ -1,0 +1,34 @@
+.carousel-item {
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-open:checked + .carousel-item {
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+}
+
+.carousel-bullet {
+  transition: color 0.3s ease;
+}
+
+.prev, .next {
+  display: block;
+}
+
+.carousel-item.opacity-100 {
+  opacity: 1;
+  position: relative;
+  z-index: 10;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 15;
+}
